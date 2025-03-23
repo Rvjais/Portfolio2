@@ -83,6 +83,15 @@ li{
    place-content: center;
    height: inherit;
 }
+.vdogif video {
+    box-shadow: none;
+    border-radius: 50%;
+    background-blend-mode: color-burn;
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.5s ease-in-out;
+    }
+}
 .bg-main{
     height: 80vh;
     position: relative;
